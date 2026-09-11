@@ -1,0 +1,21 @@
+.lsn
+
+# Secretos y configuracion local
+.env
+.env.*
+!.env.example
+appseting.json
+appsettings*.json
+!appsettings.example.json
+
+# Dependencias y archivos generados
+node_modules/
+dist/
+build/
+coverage/
+
+# Configuracion del editor y del sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
